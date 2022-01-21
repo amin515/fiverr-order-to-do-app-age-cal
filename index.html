@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Fiverr_order</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+</head>
+<body>
+    
+
+
+    <div class="fiverr-wrap">
+        <h1 class="display-3">Fiverr Order Counter</h1>
+        <div class="card">
+            <div class="card-body">
+             <form action="" class="form-inline" id="fiverr_order">
+
+                 <input type="date" name="" id="first_input" class="w-25 form-control">
+                 <input type="time" name="" id="second_input" class="w-25 form-control">
+                 <input type="submit" value="Create Fiverr order" class="btn btn-success w-25">
+             </form>
+             <div class="counter">
+                 <h1 id="count"> </h1>
+             </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Fiverr_order end -->
+    
+    <!-- agecalculator start -->
+
+
+    <div class="container-2">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" id="sent_2">
+                            <h1 class="display-2">Age Calculator</h1>
+                            <div class="form-group">
+                                <input type="text" placeholder="name" class="form-control my-4">
+                                <input type="date" class="form-control my-2">
+                                <input type="radio" name="gender" value="male" class="mx-1">Male
+                                <input type="radio" name="gender" value="female" class="mx-1">Female <br> <br>
+                                <input type="submit" value="check" class="btn btn-success btn-block w-100" id="sent">
+                                <p id="result_2"></p>
+                                <p id="result_3"></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- agecalculator end -->
+<!-- to-do app start -->
+
+
+<div class="container-3">
+    <div class="col">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <form action="" class="form-inline abc" id="do_form">
+                        <h1 class="display-2">Basic To-Do App</h1>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" placeholder="Add something" id="input_four" name="do-name" value="">
+                        </div>
+                        <div class="form-group">
+                           <select name="opt" id="input_five" >
+                               <option value="select">-select-</option>
+                               <option value="important">Important</option>
+                               <option value="Not-Important">Not-Important</option>
+                               <option value="Un-neccessary">Un-neccessary</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-success you" value="Add" id="addbtn">
+                        </div>
+                    </form>
+
+
+                   <ul class="list-group" id="list">
+                      
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

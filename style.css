@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.fiverr-wrap{
+    width: 700px;
+    margin: 200px auto;
+}
+
+
+.container-2{
+    width: 700px;
+    margin: 60px auto;
+}
+
+
+input.form-control.my-4 {
+    height: 59px;
+}
+
+input.form-control.my-2 {
+    height: 60px;
+}
+
+body {
+    background: #b672fa !important;
+}
+
+input#first_input {
+    height: 60px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -3px;
+}
+input#second_input {
+    height: 60px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 16px;
+    left: 192px;
+}
+input.btn.btn-success.w-25 {
+    height: 60px;
+    width: 45% !important;
+    position: absolute;
+    top: 16px;
+    left: 376px;
+}
+
+
+
+
+.container-3{
+    width: 700px;
+    margin: 300px auto;
+}
+
+input#input_four {
+    margin-right: 10px;
+    height: 60px;
+    padding: 5px;
+}
+
+select#input_five {
+    height: 60px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 215px;
+}
+
+
+input.btn.btn-success.you {
+    width: 222px;
+    height: 60px;
+    position: relative;
+    left: 443px;
+    top: -60px;
+}
+input#input_four {
+    margin-right: 10px;
+    height: 60px;
+    padding: 5px;
+    width: 215px;
+   
+}
+
+li.list-group-item {
+    margin-bottom: 7px;
+    border-top: 1px solid #ddd !important;
+}
+
+
+h1.display-3 {
+    background: white;
+    border-radius: 4px;
+}
